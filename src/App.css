@@ -1,0 +1,10 @@
+.main{
+  text-align: center;
+  margin-top: 10px auto;
+  margin-left: 600px;
+}
+.inner{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
