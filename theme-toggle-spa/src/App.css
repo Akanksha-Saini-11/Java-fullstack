@@ -1,0 +1,45 @@
+/* common styles */
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: Arial, sans-serif;
+}
+
+/* light mode */
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* dark mode */
+.app.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* button styling */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* button in light mode */
+.app.light button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* button in dark mode */
+.app.dark button {
+  background-color: #ffffff;
+  color: #000000;
+}
